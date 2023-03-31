@@ -5,13 +5,14 @@ These two assigments made by team which is consist of 2 person.
 
 //////////////////////////////////CAD-2/////////////////////////////////
 
-In this CAD assignment you will work as a team of two to implement two different organizations of simple MIPS processor, and compare energy spent by each, after running a simple benchmark to store numbers in multiples of 4 to different data memory locations.
-2. Organizations
+  In this CAD assignment you will work as a team of two to implement two different organizations of simple MIPS processor, and compare energy spent by each, after running a simple benchmark to store numbers in multiples of 4 to different data memory locations.
+1. Organizations
   a. Multi-Cycle MIPS
   b. Pipelined MIPS
-3. Benchmark
-Both implementations will be simple enough to only accommodate the instructions available in the benchmark:
-## This is a simple test benchmark consisting of only fundamental MIPS instructions lw $s0, 0($zero) # load final count from memory address 0
+2. Benchmark
+  Both implementations will be simple enough to only accommodate the instructions available in the benchmark:
+This is a simple test benchmark consisting of only fundamental MIPS instructions lw $s0, 0($zero) # load final count from memory address 0
+
 lw $s1, 4($zero) # initialize counter $s1 from address 4
 lw $s2, 4($zero) # initialize $s2 from address 4
 repeat:
